@@ -345,9 +345,8 @@
         // Set current year
         document.getElementById('year').textContent = new Date().getFullYear();
 
-        // Set last updated date
-        const options = { year: 'numeric', month: 'long', day: 'numeric' };
-        document.getElementById('last-updated-date').textContent = new Date().toLocaleDateString('en-US', options);
+        // Set last updated date (fixed)
+        document.getElementById('last-updated-date').textContent = 'January 1, 2026';
     </script>
 </body>
 
